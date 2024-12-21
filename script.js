@@ -124,7 +124,7 @@ function showStartText(){
     ctx.fillStyle = "grey";
     const x = canvas.width /4.5;
     const y = canvas.height / 2;
-    ctx.fillText("Tap Screen or Press To Start",x,y);
+    ctx.fillText("Tap Screen or Press Space To Start",x,y);
 }
 
 
