@@ -122,7 +122,7 @@ function showStartText(){
     const fontSize = 40*scaleRatio;
     ctx.font = `${fontSize}px Veranda`;
     ctx.fillStyle = "grey";
-    const x = canvas.width /4.5;
+    const x = canvas.width /6.4;
     const y = canvas.height / 2;
     ctx.fillText("Tap Screen or Press Space To Start",x,y);
 }
